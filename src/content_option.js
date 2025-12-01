@@ -63,6 +63,15 @@ const skills = [
   },
 ];
 
+const frameworks = [
+  "Vue.js",
+  "Nuxt",
+  "React Js",
+  "Laravel",
+  "Bootstrap",
+  "Tailwind",
+];
+
 const services = [
   {
     title: "UI & UX Development",
@@ -131,7 +140,7 @@ const dataportfolio = [
     description:
       "Responsive design example ensuring cross-device compatibility.",
     link: "#",
-  }
+  },
 ];
 
 const contactConfig = {
@@ -153,6 +162,7 @@ export {
   dataportfolio,
   worktimeline,
   skills,
+  frameworks,
   services,
   introdata,
   contactConfig,

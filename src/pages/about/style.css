@@ -66,8 +66,27 @@
     border-bottom: solid 2px var(--secondary-color);
 }
 
-.service-section .service-category-title {
-    padding-bottom: 4px;
+.frameworks-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: -15px; /* Adjust to align with category title */
+}
+
+.framework-item {
+    background: var(--secondary);
+    color: var(--text-color);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.framework-item svg {
+    font-size: 16px;
 }
 
 
