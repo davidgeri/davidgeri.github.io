@@ -32,6 +32,25 @@ export const Portfolio = () => {
             );
           })}
         </div>
+        <Row className="mb-5 pb-5" style={{ marginBottom: "5rem" }}>
+          <Col lg="8">
+            <p>To see more, download my portfolio.</p>
+            <a
+              href="/PortfolioDavidGeri.pdf"
+              download
+              className="btn download-btn"
+              style={{
+                backgroundColor: "white",
+                color: "black",
+                border: "1px solid black",
+                padding: "0.5rem 1rem",
+                boxShadow: "0 0 0 2px white",
+              }}
+            >
+              Download Portfolio
+            </a>
+          </Col>
+        </Row>
       </Container>
     </HelmetProvider>
   );
