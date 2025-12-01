@@ -1,38 +1,67 @@
-### Description
+# David Geri's Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+Welcome to my personal portfolio website! This is a modern, responsive React application showcasing my work as a Frontend Developer specializing in Vue.js, Nuxt, Laravel, React, and modern UI frameworks.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## 🚀 Features
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+- **Responsive Design**: Optimized for all devices
+- **Portfolio Gallery**: Showcase of projects with images and descriptions
+- **About Section**: Detailed information about skills and experience
+- **Contact Form**: Easy way to get in touch
+- **Smooth Animations**: Enhanced user experience with transitions
 
-### Features
+## 🛠️ Technologies Used
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+- **Frontend**: React 18, React Router
+- **Styling**: Bootstrap 5, Custom CSS
+- **Build Tool**: Create React App
+- **Deployment**: GitHub Pages with CI/CD
 
-### Setup
+## 📋 Sections
 
-Get the code
+1. **Home**: Introduction with profile image and typewriter effect
+2. **About**: Skills, work timeline, and services
+3. **Portfolio**: Gallery of projects
+4. **Contact**: Contact form and social links
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+## 🏃‍♂️ Getting Started
 
-<pre>yarn install</pre>
+To run this project locally:
 
+```bash
+# Clone the repository
+git clone https://github.com/davidgeri/davidgeri.github.io.git
 
-Start the server
+# Navigate to the directory
+cd react-portfolio
 
-<pre>yarn start</pre>
+# Install dependencies
+npm install
 
-### More
+# Start the development server
+npm start
+```
 
-Modify pages content in  `src/content_option.js`.
+The app will be available at `http://localhost:3000`.
 
-### Thanks
+## 🚀 Deployment
 
-If you like this portfolio template don't forget give it a ⭐ 
+This project uses GitHub Actions for CI/CD:
+
+- **Trigger**: Publishing a release on GitHub
+- **Build**: Automated build and test
+- **Deploy**: Automatic deployment to GitHub Pages
+
+Live site: [https://davidgeri.github.io](https://davidgeri.github.io)
+
+## 📞 Contact
+
+Feel free to reach out for collaborations or opportunities!
+
+- **Email**: [Your email here]
+- **LinkedIn**: [Your LinkedIn]
+- **GitHub**: [https://github.com/davidgeri](https://github.com/davidgeri)
+
+---
+
+_Built with ❤️ by David Geri_
