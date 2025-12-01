@@ -3,14 +3,32 @@ import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
 import {
+  SiVuedotjs,
+  SiNuxtdotjs,
+  SiReact,
+  SiLaravel,
+  SiBootstrap,
+  SiTailwindcss,
+} from "react-icons/si";
+import {
   dataabout,
   meta,
   worktimeline,
   skills,
+  frameworks,
   services,
 } from "../../content_option";
 
 export const About = () => {
+  const frameworkIcons = {
+    "Vue.js": <SiVuedotjs />,
+    Nuxt: <SiNuxtdotjs />,
+    "React Js": <SiReact />,
+    Laravel: <SiLaravel />,
+    Bootstrap: <SiBootstrap />,
+    Tailwind: <SiTailwindcss />,
+  };
+
   return (
     <HelmetProvider>
       <Container className="About-header">
@@ -77,6 +95,20 @@ export const About = () => {
                 </div>
               );
             })}
+          </Col>
+        </Row>
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Frameworks</h3>
+          </Col>
+          <Col lg="7">
+            <div className="frameworks-list">
+              {frameworks.map((framework, i) => (
+                <span key={i} className="framework-item">
+                  {frameworkIcons[framework]} {framework}
+                </span>
+              ))}
+            </div>
           </Col>
         </Row>
         <Row className="sec_sp">
