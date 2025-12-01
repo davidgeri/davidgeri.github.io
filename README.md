@@ -59,7 +59,7 @@ Live site: [https://davidgeri.github.io](https://davidgeri.github.io)
 Feel free to reach out for collaborations or opportunities!
 
 - **Email**: davidgeri988@gmail.com
-- **LinkedIn**: +62 838-5746-9370
+- **Phone**: +62 838-5746-9370
 - **GitHub**: [https://github.com/davidgeri](https://github.com/davidgeri)
 
 ---
