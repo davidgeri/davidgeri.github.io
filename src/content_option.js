@@ -8,13 +8,12 @@ const meta = {
 const introdata = {
   title: "Hello, I am David Geri",
   animated: {
-    first: "I am a Frontend Developer",
+    first: "I am a Front-end Developer",
     second: "I code a lot of websites",
     third: "I love to code",
   },
   description:
     "Hi, my name is David Geri Pradipta Riadi, a Front-End Web Developer with years of experience in building web applications, advertisement websites, and custom web solutions. I specialize in Vue.js, Nuxt, Laravel, React and modern UI frameworks, and I enjoy creating clean, responsive, and functional interfaces.",
-  // your_img_url: "/person.jpg",
 };
 
 const dataabout = {
